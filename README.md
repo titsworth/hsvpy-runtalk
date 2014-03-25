@@ -44,6 +44,6 @@ One last item, I am currently usinf IPython V2.0 which is still in development. 
 
 Finally, to run the notebooks...
 
-    >> cd hsv-runtalk
+    >> cd hsvpy-runtalk
     >> ipython notebook
 
