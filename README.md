@@ -6,7 +6,7 @@ This talk will provide an example based introduction to IPython and pandas. Spec
 
 The repository for my talk is located here:
 
-[https://github.com/titsworth/talks](https://github.com/titsworth/talks)
+[https://github.com/titsworth/hsvpy-runtalk](https://github.com/titsworth/hsvpy-runtalk)
 
 Once you clone this repository, you can start setting up your environment
 
@@ -20,20 +20,30 @@ Once anaconda is installed, you can set up a new conda environment (sort of like
 
     >> conda create -n runtalk --file environment.conda
 
- This should get most the appropriate packages for this talk and set you up in a new environment. To swith co this environment, run the following command.
+This should get most the appropriate packages for this talk and set you up in a new environment. To swith co this environment, run the following command.
 
-    >> source activate runtalk  # mac/linux
-    X:\> activate runtalk       # windows
+    >> source activate runtalk
 
- You will also need to install a few extra packages with plain ol' pip since they are not controlled by the conda team at this point
+or for windows
 
-     >> pip install -r requirements.txt
+    X:\> activate runtalk
+
+You will also need to install a few extra packages with plain ol' pip since they are not controlled by the conda team at this point
+
+    >> pip install -r requirements.txt
 
 ## IPython V2.0
 
- One last item, I am currently usinf IPython V2.0 which is still in development. Most of the talk can be done with the IPython that comes bundled with Anaconda, but if you want to follow along completely, here is how to get set up with the latest development version of IPython. (Remember to switch to your runtalk environment if you are not already there)
+One last item, I am currently usinf IPython V2.0 which is still in development. Most of the talk can be done with the IPython that comes bundled with Anaconda, but if you want to follow along completely, here is how to get set up with the latest development version of IPython. (Remember to switch to your runtalk environment if you are not already there)
 
- 	>> git clone https://github.com/ipython/ipython.git
- 	>> cd ipython
- 	>> python setup.py install
+    >> git clone https://github.com/ipython/ipython.git
+    >> cd ipython
+    >> python setup.py install
+
+## Running the notebooks
+
+Finally, to run the notebooks...
+
+    >> cd hsv-runtalk
+    >> ipython notebook
 
